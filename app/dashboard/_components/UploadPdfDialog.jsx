@@ -61,7 +61,7 @@ function UploadPdfDialog({ children, isMaxFile }) {
       }); // API call to fetch and process PDF data
 
       const response = await axios.get(
-        `http://localhost:3000/api/pdf-loader/?pdfUrl=` + fileUrl
+        `${process.env.NEXT_PUBLIC_API_URL}/api/pdf-loader/?pdfUrl=` + fileUrl
       );
       
       
