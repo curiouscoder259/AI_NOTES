@@ -1,4 +1,4 @@
-// File: E:\AI-NOTES\app\page.js
+// File: E:\AI_IntelliNotes\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
